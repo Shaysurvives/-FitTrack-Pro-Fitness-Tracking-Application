@@ -1,47 +1,186 @@
-# FitTrack Pro — Cloud Edition
+# 💪 FitTrack Pro
 
-Postgres-backed version for deployment on Render + Neon. Free tier compatible.
+<div align="center">
 
-## What's different from the local version
+### A Cloud-Based Full Stack Fitness Tracking Platform
 
-- **Database:** Neon Postgres (cloud) instead of local SQLite
-- **Hosting:** Render Web Service (free tier)
-- **Env var required:** `DATABASE_URL` (your Neon connection string)
-- **Frontend:** unchanged
+Track workouts • Monitor nutrition • Predict weight progress • Analyze muscle recovery • Stay consistent
 
-## Deploy in 3 steps
+🌐 **Live Demo:** https://freakyfitness.onrender.com/
 
-### 1. Set DATABASE_URL on Render
-After importing this repo into Render as a Web Service, go to Environment → Environment Variables and add:
+[Live Demo](https://freakyfitness.onrender.com/) • [LinkedIn](https://www.linkedin.com/in/akshayreddy29005/) • [GitHub](https://github.com/Shaysurvives)
 
-```
-Key:   DATABASE_URL
-Value: <your Neon connection string>
-```
+</div>
 
-Format: `postgresql://user:pass@host.neon.tech/dbname?sslmode=require`
+---
 
-### 2. Build & start commands (Render auto-detects, but verify)
+# 📖 Overview
 
-```
-Build command:  npm install
-Start command:  npm start
-```
+FitTrack Pro is a modern cloud-based fitness management platform designed to help users achieve their health goals through intelligent workout planning, nutrition tracking, body analytics, and progress prediction.
 
-### 3. Deploy
+The application provides an intuitive dashboard with real-time statistics, workout scheduling, calorie management, muscle recovery visualization, and predictive weight tracking while securely storing user data in the cloud.
 
-Render builds and starts the app. First request to your URL might take ~30 seconds (free-tier cold start). After that it's instant until idle for 15+ minutes.
+---
 
-## API endpoints
+# ✨ Features
 
-Same as the local version — see local README for full reference. Base URL is your Render URL (e.g. `https://fittrack-pro.onrender.com`).
+### 📊 Dashboard
+- Personalized fitness dashboard
+- Current weight tracking
+- Goal progress monitoring
+- Daily calorie summary
+- Transformation prediction
+- Weekly & monthly statistics
 
-## Local testing (optional)
+### 🏋️ Workout Planner
+- Push Pull Legs & Bro Split
+- Weekly workout schedule
+- Volume tracking
+- Muscle group analysis
+- Workout logging
 
-```bash
-set DATABASE_URL=<your_neon_url>
-npm install
-npm start
-```
+### 🥗 Nutrition Tracker
+- Meal logging
+- Protein tracking
+- Carbohydrate tracking
+- Fat tracking
+- Daily calorie management
+- Water intake tracker
 
-Open http://localhost:3000.
+### 📈 Progress Analytics
+- Weight prediction graph
+- Weekly forecast
+- Monthly forecast
+- Actual vs Predicted progress
+- TDEE & BMR calculations
+
+### 💪 Recovery Monitor
+- Muscle recovery visualization
+- Front & Back muscle mapping
+- Recovery status indicator
+- Workout readiness
+
+### 👤 User Profile
+- Personal profile management
+- Goal weight configuration
+- Fitness duration
+- Body measurements
+- Notification settings
+
+---
+
+# 🛠 Tech Stack
+
+## Frontend
+
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+
+## Backend
+
+- Node.js
+- Express.js
+
+## Database
+
+- PostgreSQL (Neon)
+
+## Deployment
+
+- Render
+
+## Tools
+
+- Git
+- GitHub
+- REST APIs
+
+---
+
+# 📸 Application Screenshots
+
+## Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+## Workout Planner
+
+![Workout](screenshots/workout.png)
+
+---
+
+## Nutrition Tracking
+
+![Nutrition](screenshots/nutrition.png)
+
+---
+
+## Progress Analytics
+
+![Progress](screenshots/progress.png)
+
+---
+
+## Muscle Recovery
+
+![Recovery](screenshots/recovery.png)
+
+---
+
+## User Profile
+
+![Profile](screenshots/profile.png)
+
+---
+
+# 🚀 Live Application
+
+https://freakyfitness.onrender.com/
+
+---
+
+# 💡 Skills Demonstrated
+
+- Full Stack Development
+- REST API Development
+- React.js
+- Node.js
+- Express.js
+- PostgreSQL
+- Database Design
+- CRUD Operations
+- Cloud Deployment
+- Authentication
+- Responsive Web Design
+
+---
+
+# 🔮 Future Improvements
+
+- AI Workout Recommendation Engine
+- AI Nutrition Coach
+- Exercise Video Library
+- Social Fitness Community
+- Wearable Device Integration
+- Mobile Application
+- Dark/Light Theme
+- Push Notifications
+
+---
+
+# 👨‍💻 Author
+
+**Akshay Reddy**
+
+💼 LinkedIn: https://www.linkedin.com/in/akshayreddy29005/
+
+💻 GitHub: https://github.com/Shaysurvives
+
+🌐 Live Demo: https://freakyfitness.onrender.com/
+
+---
+
